@@ -1,4 +1,4 @@
-package lanchonete;
+package lanchonete.area.cliente;
 
 public class Cliente {
 	
@@ -9,14 +9,11 @@ public class Cliente {
 		System.out.println("FAZENDO O PEDIDO");
 	}
 	public void pagarConta() {
+		consultaSaldoAplicativo();
 		System.out.println("PAGANDO CONTA");
 	}
-	public void consultaSaldoAplicativo() {
+	private void consultaSaldoAplicativo() {
 		System.out.println("CONSULTANDO SALDO NO APLICATIVO");
 	}
-	public void pegarPedidoBalcao() {
-		System.out.println("PEGANDO PEDIDO BALCÃO");
-	}
-	
 
 }
